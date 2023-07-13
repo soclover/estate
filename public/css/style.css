@@ -1,0 +1,11 @@
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul li {
+  width: 25%;
+}
+header nav ul a {
+  display: block;
+  width: 100%;
+}

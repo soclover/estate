@@ -1,0 +1,15 @@
+header{
+    nav{
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                width: 25%;
+            }
+            a{
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

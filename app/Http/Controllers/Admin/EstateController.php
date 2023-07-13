@@ -12,4 +12,19 @@ class EstateController extends Controller
     {
         return view('admin.estate.create');
     }
+
+    public function create()
+    {
+        return redirect('admin/estate/create');
+    }
+
+    public function edit()
+    {
+        return view('admin.estate.edit');
+    }
+
+    public function update()
+    {
+        return redirect('admin/estate/edit');
+    }
 }
